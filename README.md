@@ -13,6 +13,5 @@ Añadir linea 415... del documento ajax.php
 
 Añadir al index.php el codigo linea 700...  
 Añadir al index.php el codigo linea 748...  
-
-Salimos del paso en una panaderia, luego realizare un modulo.  
+  
 Importante!! En la configuracion de parametros del modulo takepos, deben tener desactivada la opcion 'Agrupar mismas líneas de producto'.
