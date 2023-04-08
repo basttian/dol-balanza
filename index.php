@@ -750,7 +750,7 @@ function Search2(keyCodeForEnter, moreorless) {
  	$("#poslines").load("invoice.php?action=addline&token=<?php echo newToken() ?>&place="+place+"&idproduct="+id+"&selectedline="+selectedline, function() {
  		$('.posinvoiceline').click(function(){
  			<?php if (!empty($conf->global->TAKEPOS_CUSTOMER_DISPLAY)) echo "CustomerDisplay();";?>
- 			$("#poslines").load("invoice.php?action=updateqty&place="+place+"&idline="+this.id+"&number="+qty, function() {});
+ 			$("#poslines").load("invoice.php?action=updateqty&token=<?php echo newToken() ?>&place="+place+"&idline="+this.id+"&number="+qty, function() {});
  		});
  	});
  	ClearSearch(0);
